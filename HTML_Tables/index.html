@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Tablolar</title>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <!-- Satır 1-->
+                <th scope="col">Sipariş Kodu</th>
+                <th scope="col">Sipariş Adedi</th>
+                <th scope="col">Sipariş İçeriği</th>
+                <th scope="col" colspan="2">Sipariş Durumu</th>
+                <th scope="col">Sipariş Takip Durumu</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">2345</td>
+                <td >1</td>
+                <td>Mavi T-Shirt</td>
+                <td rowspan="2" colspan="2">Sipariş hazırlanıyor</td>
+                <td rowspan="2">Açık</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Saat</td>
+            </tr>
+            <tr>
+                <td>6743</td>
+                <td>2</td>
+                <td>Çorap</td>
+                <td colspan="2"> Sipariş teslim edildi.</td>
+                <td>Kapalı</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
